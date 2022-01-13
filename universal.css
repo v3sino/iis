@@ -1,0 +1,63 @@
+* {
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+    box-sizing:border-box;
+}
+
+/* Table styles */
+.tables {
+    background-color: gainsboro;
+    padding-bottom: 20px;
+}
+
+td, th {
+    border:1px solid black; 
+    padding-right: 5px;
+    padding-left: 5px;   
+}
+
+.notItem { 
+    /* those are links used for editing tables, not proper table items (from design perspective) */
+    border: none;
+}
+
+input, select, textarea {
+    margin-bottom: 1rem; 
+    padding:0; 	
+    font-family:Arial;    
+  }
+
+/* Forms  */
+form {
+    background-color: lightgray;
+    padding: 20px 20px 10px 20px;
+}
+
+.submit_button {
+    margin-top: 1em;
+    width: 20em;
+    height: 2em;
+}
+
+.submit_button:hover {
+    cursor: pointer;
+}
+
+form p {
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* Link to go back */
+.back {
+    margin-bottom: 2em;
+}
+
+/* Messages after submitting form */
+.err {
+    color: red;
+}
+
+.succ {
+    color: green
+}
